@@ -7,24 +7,8 @@
       "RelativeMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\components\\pages\\servers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\servermanagement\\models\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\models\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\servermanagement\\models\\serversrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\models\\serversrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\servermanagement\\components\\pages\\editserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\components\\pages\\editserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\servermanagement\\components\\pages\\addserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\components\\pages\\addserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\servermanagement\\models\\citiesrepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\models\\citiesrepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\servermanagement\\components\\controls\\servercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\components\\controls\\servercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,28 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddServer.razor",
-              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Pages\\AddServer.razor",
-              "RelativeDocumentMoniker": "ServerManagement\\Components\\Pages\\AddServer.razor",
-              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Pages\\AddServer.razor",
-              "RelativeToolTip": "ServerManagement\\Components\\Pages\\AddServer.razor",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-31T23:04:25.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Server.cs",
-              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Models\\Server.cs",
-              "RelativeDocumentMoniker": "ServerManagement\\Models\\Server.cs",
-              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Models\\Server.cs",
-              "RelativeToolTip": "ServerManagement\\Models\\Server.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T22:48:07.03Z",
+              "Title": "ServerComponent.razor",
+              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Controls\\ServerComponent.razor",
+              "RelativeDocumentMoniker": "ServerManagement\\Components\\Controls\\ServerComponent.razor",
+              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Controls\\ServerComponent.razor",
+              "RelativeToolTip": "ServerManagement\\Components\\Controls\\ServerComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T01:21:07.306Z",
               "EditorCaption": ""
             },
             {
@@ -78,48 +49,9 @@
               "RelativeDocumentMoniker": "ServerManagement\\Components\\Pages\\Servers.razor",
               "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Pages\\Servers.razor",
               "RelativeToolTip": "ServerManagement\\Components\\Pages\\Servers.razor",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-31T19:27:47.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CitiesRepositoy.cs",
-              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Models\\CitiesRepositoy.cs",
-              "RelativeDocumentMoniker": "ServerManagement\\Models\\CitiesRepositoy.cs",
-              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Models\\CitiesRepositoy.cs",
-              "RelativeToolTip": "ServerManagement\\Models\\CitiesRepositoy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T21:13:31.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Models\\ServersRepository.cs",
-              "RelativeDocumentMoniker": "ServerManagement\\Models\\ServersRepository.cs",
-              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Models\\ServersRepository.cs",
-              "RelativeToolTip": "ServerManagement\\Models\\ServersRepository.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwBIAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T20:55:18.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditServer.razor",
-              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Pages\\EditServer.razor",
-              "RelativeDocumentMoniker": "ServerManagement\\Components\\Pages\\EditServer.razor",
-              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Pages\\EditServer.razor",
-              "RelativeToolTip": "ServerManagement\\Components\\Pages\\EditServer.razor",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-31T21:36:06.696Z",
               "EditorCaption": ""
             }
           ]

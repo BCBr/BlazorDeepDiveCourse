@@ -2,16 +2,18 @@
 
 @inject NavigationManager NavigationManager
 
+@rendermode InteractiveServer
+
 <h3>Servers</h3>
 <div class="container-fluid text-center">
 	<div class="row w-50">
 		@foreach (string city in cities)
 		{
 			<div class="col">
-				<div class="card">
+				<div class="card @(selectedCity == city ? "border-primary mb-1" : "")">
 					<img src="@($"/images/{city}.png")" class="card-img-top" alt="...">
 					<div class="card-body">
-						<button type="button" class="btn btn-primary">@city</button>
+						<button type="button" class="btn btn-primary" @onclick="@(() => {SelectCity(city);})">@city</button>
 					</div>
 				</div>
 				<text>&nbsp;</text>
@@ -20,6 +22,8 @@
 	</div>
 </div>
 
+<br />
+<ServerComponent></ServerComponent>
 <br />
 
 <ul>
@@ -47,7 +51,9 @@
 @code {
 	private List<string> cities = CitiesRepository.GetCities();
 
-	private List<Server> servers = ServersRepository.GetServers();
+	private List<Server> servers = ServersRepository.GetServersByCity("Toronto");
+
+	private string selectedCity = "Toronto";
 
 	private void DeleteServer(int serverId)
 	{
@@ -56,5 +62,12 @@
 			ServersRepository.DeleteServer(serverId);
 			NavigationManager.NavigateTo("/servers");
 		}
+	}
+
+	private void SelectCity(string cityName)
+	{
+		this.selectedCity = cityName;
+
+		this.servers = ServersRepository.GetServersByCity(this.selectedCity);
 	}
 }

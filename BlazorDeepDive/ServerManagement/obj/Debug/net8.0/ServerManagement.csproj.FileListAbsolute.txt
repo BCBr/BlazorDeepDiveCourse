@@ -26,3 +26,4 @@ C:\Users\bcbos\Desktop\Bruno\CursosBlazor\BlazorDeepDive\Projects\BlazorDeepDive
 C:\Users\bcbos\Desktop\Bruno\CursosBlazor\BlazorDeepDive\Projects\BlazorDeepDiveCourse\BlazorDeepDive\ServerManagement\obj\Debug\net8.0\ServerManagement.pdb
 C:\Users\bcbos\Desktop\Bruno\CursosBlazor\BlazorDeepDive\Projects\BlazorDeepDiveCourse\BlazorDeepDive\ServerManagement\obj\Debug\net8.0\ServerManagement.genruntimeconfig.cache
 C:\Users\bcbos\Desktop\Bruno\CursosBlazor\BlazorDeepDive\Projects\BlazorDeepDiveCourse\BlazorDeepDive\ServerManagement\obj\Debug\net8.0\ref\ServerManagement.dll
+C:\Users\bcbos\Desktop\Bruno\CursosBlazor\BlazorDeepDive\Projects\BlazorDeepDiveCourse\BlazorDeepDive\ServerManagement\obj\Debug\net8.0\ServerManagement.sourcelink.json

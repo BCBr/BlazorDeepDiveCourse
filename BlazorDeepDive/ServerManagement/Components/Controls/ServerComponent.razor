@@ -1,16 +1,24 @@
-﻿<ul>
-	@foreach (Server server in servers)
-	{
-		<li>
-			@server.Name in @server.City is
-			<span style="color: @(server.IsOnline ? "green" : "red")">
-				@(server.IsOnline ? "online" : "offline")
-			</span>
-		</li>
-	}
+﻿@if (server != null)
+{
+	<div data-name="@server.Name"
+		 data-status="Server is@(server.IsOnline ? "online" : "offline")"
+		 style="@($"color: {(server.IsOnline ? "green" : "red")}")">
 
-</ul>
+		@server.Name is in @server.City that is @(server.IsOnline ? "Online" : "Offline")
+		&nbsp;
+		<button type="button" class="btn btn-primary" @onclick="ChangeStatus">Turn @(server.IsOnline ? "OFF" : "ON") </button>
+	</div>
+}
+
 
 @code {
-	private List<Server> servers = ServersRepository.GetServersByCity("Toronto");
+	private Server? server { get; set; } = new Server { Name = "Server 1", City = "Toronto" };
+
+	private void ChangeStatus()
+	{
+		if (server != null)
+		{
+			this.server.IsOnline = !this.server.IsOnline;
+		}
+	}
 }

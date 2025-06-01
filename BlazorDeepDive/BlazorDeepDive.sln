@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerManagement", "ServerManagement\ServerManagement.csproj", "{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AulasCurso", "AulasCurso", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDoList", "ToDoList", "{4E27A7EB-14E8-4ED1-A972-C6ACD3CB54EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{E3C2D5AC-94F4-493C-95A3-185D91970776}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C2D5AC-94F4-493C-95A3-185D91970776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C2D5AC-94F4-493C-95A3-185D91970776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C2D5AC-94F4-493C-95A3-185D91970776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C2D5AC-94F4-493C-95A3-185D91970776}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E3C2D5AC-94F4-493C-95A3-185D91970776} = {4E27A7EB-14E8-4ED1-A972-C6ACD3CB54EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F687F4-624C-4C9E-952A-D7AF8C0AD4DD}

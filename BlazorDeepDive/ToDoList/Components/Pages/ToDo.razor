@@ -1,6 +1,74 @@
 ﻿@page "/ToDoList"
+
+
+@inject NavigationManager NavigationManager
+
+@rendermode InteractiveServer
+
 <h3>To Do List</h3>
 
-@code {
+<div>
+	<br />
+	<button type="button" class="btn btn-primary" @onclick="@(()=>{AddTaskToDo();})"> Add Task </button>
+	<br />
+	<br />
+</div>
 
+@if (TasksList != null && TasksList.Count > 0)
+{
+	<ul>
+		@foreach (TaskToDo toDoTask in TasksList)
+		{
+			<li @key="toDoTask.Id">
+				<div class="row mb-2">
+					<div class="col-1">
+						<input type="checkbox"  
+							class="form-check-input"
+							   @bind-value="toDoTask.IsCompleted" 
+							   checked ="@toDoTask.IsCompleted" />
+					</div>
+					<div class="col">
+						@if(toDoTask.IsCompleted)
+						{
+							<input type="text" @bind-value="toDoTask.Name" class="text-decoration-line-through" disabled>
+						}else
+						{
+							<input type="text" @bind-value="toDoTask.Name" placeholder="What you need to do?"/>
+						}
+						
+					</div>
+					<div class="col">
+						@if (toDoTask.IsCompleted)
+						{
+							<text>Completed at: @toDoTask.DateCompleted </text>
+						}
+						else
+						{
+							<text></text>
+						}
+					
+					</div>
+				</div>
+			</li>
+		}
+	</ul>
+}
+
+@code
+{
+	private List<TaskToDo> TasksList = TasksRepository.GetTasksOrderedByCompletedFirst(false);
+
+	private void UpdateCheckTask(TaskToDo taskToUpdate)
+	{
+		if(taskToUpdate !=null)
+		{
+			TasksRepository.UpdateTask(taskToUpdate.Id, taskToUpdate);
+		}
+	}
+
+	private void AddTaskToDo()
+	{
+		TasksRepository.AddTask(new TaskToDo());
+		TasksList = TasksRepository.GetTasksOrderedByCompletedFirst(false);
+	}
 }

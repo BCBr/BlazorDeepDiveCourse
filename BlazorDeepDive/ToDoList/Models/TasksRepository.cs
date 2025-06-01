@@ -4,13 +4,13 @@
     {
         private static List<TaskToDo> tasks = new List<TaskToDo>()
         {
-            new TaskToDo {  Id = 1 },
-            new TaskToDo {  Id = 2 },
-            new TaskToDo {  Id = 3 },
-            new TaskToDo {  Id = 4 },
+            new TaskToDo {  Id = 1 , Name = "Task 1"},
+            new TaskToDo {  Id = 2 , Name = "Task 2"},
+            new TaskToDo {  Id = 3 , Name = "Task 3"},
+            new TaskToDo {  Id = 4 , Name = "Task 4"},
         };
 
-        public static void AddServer(TaskToDo task)
+        public static void AddTask(TaskToDo task)
         {
             var maxId = tasks.Max(s => s.Id);
             task.Id = maxId + 1;
@@ -62,9 +62,17 @@
             return tasks.Where(s => s.Name.Contains(tasksFilter, StringComparison.OrdinalIgnoreCase)).ToList();
         }
 
-        public static List<TaskToDo> SearchTasksCompleted(bool isCompleted)
+        private static List<TaskToDo> GetTasksCompleted(bool isCompleted)
         {
             return tasks.Where(t => t.IsCompleted == isCompleted).ToList();
+        }
+
+        public static List<TaskToDo> GetTasksOrderedByCompletedFirst(bool isCompletedFirst)
+        {
+            List<TaskToDo> tasks = GetTasksCompleted(isCompletedFirst);
+            tasks.AddRange(GetTasksCompleted(!isCompletedFirst));
+
+            return tasks;
         }
     }
 }

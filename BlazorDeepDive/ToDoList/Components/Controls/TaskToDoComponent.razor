@@ -1,0 +1,38 @@
+﻿
+<li @key="ToDoTask.Id">
+	<div class="row mb-2">
+		<div class="col-1">
+			<input type="checkbox"
+				   class="form-check-input"
+				   @bind-value="ToDoTask.IsCompleted"
+				   checked="@ToDoTask.IsCompleted" />
+		</div>
+		<div class="col">
+			@if (ToDoTask.IsCompleted)
+			{
+				<input type="text" @bind-value="ToDoTask.Name" class="text-decoration-line-through" disabled>
+			}
+			else
+			{
+				<input type="text" @bind-value="ToDoTask.Name" placeholder="What you need to do?" />
+			}
+
+		</div>
+		<div class="col">
+			@if (ToDoTask.IsCompleted)
+			{
+				<text>Completed at: @ToDoTask.DateCompleted </text>
+			}
+			else
+			{
+				<text></text>
+			}
+		</div>
+	</div>
+</li>
+
+@code {
+
+	[Parameter]
+	public TaskToDo ToDoTask { get; set; }
+}

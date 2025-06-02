@@ -1,0 +1,15 @@
+﻿@if (TasksList != null && TasksList.Count > 0)
+{
+	<ul class="list-unstyled">
+		@foreach (TaskToDo toDoTask in TasksList)
+		{
+			<TaskToDoComponent ToDoTask="@toDoTask"> </TaskToDoComponent>
+		}
+	</ul>
+}
+
+@code 
+{
+	[Parameter]
+	public List<TaskToDo> TasksList { get; set; }
+}

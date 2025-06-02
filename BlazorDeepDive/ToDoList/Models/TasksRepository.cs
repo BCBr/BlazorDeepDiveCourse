@@ -17,7 +17,16 @@
             tasks.Add(task);
         }
 
-        public static List<TaskToDo> GetTasks() => tasks;
+        public static List<TaskToDo> GetTasks()
+        {
+
+            var sortedTasks = tasks
+                .OrderBy(s => s.IsCompleted)
+                .ThenByDescending(s => s.Id)
+                .ToList();
+
+            return sortedTasks;
+        }
 
 
         public static TaskToDo? GetTaskById(int id)

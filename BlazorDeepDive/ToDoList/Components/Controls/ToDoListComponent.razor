@@ -3,7 +3,7 @@
 	<ul class="list-unstyled">
 		@foreach (TaskToDo toDoTask in TasksList)
 		{
-			<TaskToDoComponent ToDoTask="@toDoTask"> </TaskToDoComponent>
+			<TaskToDoComponent ToDoTask="@toDoTask" CallUpdateVisual="UpdateList"> </TaskToDoComponent>
 		}
 	</ul>
 }
@@ -12,4 +12,12 @@
 {
 	[Parameter]
 	public List<TaskToDo> TasksList { get; set; }
+
+	[Parameter]
+	public EventCallback CallUpdateVisual { get; set; }
+
+	private void UpdateList()
+	{
+		TasksList = TasksRepository.GetTasks();
+	}
 }

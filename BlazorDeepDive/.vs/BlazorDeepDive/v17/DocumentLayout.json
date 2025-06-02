@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\todolist\\components\\controls\\tasktodocomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\components\\controls\\tasktodocomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\todolist\\components\\controls\\todolistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\components\\controls\\todolistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\todolist\\models\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\models\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\todolist\\components\\controls\\tasktodocomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\components\\controls\\tasktodocomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\servermanagement\\components\\controls\\citieslistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\components\\controls\\citieslistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\todolist\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\servermanagement\\components\\controls\\citycomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\components\\controls\\citycomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\servermanagement\\components\\pages\\servers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBE34FFE-0B8B-4B79-87E3-AB4DA914B8A7}|ServerManagement\\ServerManagement.csproj|solutionrelative:servermanagement\\components\\pages\\servers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|c:\\users\\bcbos\\desktop\\bruno\\cursosblazor\\blazordeepdive\\projects\\blazordeepdivecourse\\blazordeepdive\\todolist\\models\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3C2D5AC-94F4-493C-95A3-185D91970776}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\models\\tasksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,47 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TasksRepository.cs",
-              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Models\\TasksRepository.cs",
-              "RelativeDocumentMoniker": "ToDoList\\Models\\TasksRepository.cs",
-              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Models\\TasksRepository.cs",
-              "RelativeToolTip": "ToDoList\\Models\\TasksRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T03:11:22.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskToDoComponent.razor",
-              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Components\\Controls\\TaskToDoComponent.razor",
-              "RelativeDocumentMoniker": "ToDoList\\Components\\Controls\\TaskToDoComponent.razor",
-              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Components\\Controls\\TaskToDoComponent.razor",
-              "RelativeToolTip": "ToDoList\\Components\\Controls\\TaskToDoComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T03:02:41.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ToDoListComponent.razor",
-              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Components\\Controls\\ToDoListComponent.razor",
-              "RelativeDocumentMoniker": "ToDoList\\Components\\Controls\\ToDoListComponent.razor",
-              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Components\\Controls\\ToDoListComponent.razor",
-              "RelativeToolTip": "ToDoList\\Components\\Controls\\ToDoListComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T02:50:19.78Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{93c5e7ad-af06-49e6-a756-b8f3eaca790d}"
@@ -86,39 +43,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "TasksRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Models\\TasksRepository.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Models\\TasksRepository.cs",
+              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Models\\TasksRepository.cs",
+              "RelativeToolTip": "ToDoList\\Models\\TasksRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T03:45:06.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CityComponent.razor",
               "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Controls\\CityComponent.razor",
               "RelativeDocumentMoniker": "ServerManagement\\Components\\Controls\\CityComponent.razor",
               "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Controls\\CityComponent.razor",
               "RelativeToolTip": "ServerManagement\\Components\\Controls\\CityComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-01T23:18:54.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CitiesListComponent.razor",
-              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Controls\\CitiesListComponent.razor",
-              "RelativeDocumentMoniker": "ServerManagement\\Components\\Controls\\CitiesListComponent.razor",
-              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Controls\\CitiesListComponent.razor",
-              "RelativeToolTip": "ServerManagement\\Components\\Controls\\CitiesListComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-01T23:15:21.218Z",
+              "WhenOpened": "2025-06-02T03:30:19.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Servers.razor",
-              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Pages\\Servers.razor",
-              "RelativeDocumentMoniker": "ServerManagement\\Components\\Pages\\Servers.razor",
-              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ServerManagement\\Components\\Pages\\Servers.razor",
-              "RelativeToolTip": "ServerManagement\\Components\\Pages\\Servers.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ToDoListComponent.razor",
+              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Components\\Controls\\ToDoListComponent.razor",
+              "RelativeDocumentMoniker": "ToDoList\\Components\\Controls\\ToDoListComponent.razor",
+              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Components\\Controls\\ToDoListComponent.razor",
+              "RelativeToolTip": "ToDoList\\Components\\Controls\\ToDoListComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-01T19:22:55.319Z"
+              "WhenOpened": "2025-06-02T03:28:24.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskToDoComponent.razor",
+              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Components\\Controls\\TaskToDoComponent.razor",
+              "RelativeDocumentMoniker": "ToDoList\\Components\\Controls\\TaskToDoComponent.razor",
+              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Components\\Controls\\TaskToDoComponent.razor",
+              "RelativeToolTip": "ToDoList\\Components\\Controls\\TaskToDoComponent.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T03:02:41.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDo.razor",
+              "DocumentMoniker": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Components\\Pages\\ToDo.razor",
+              "RelativeDocumentMoniker": "ToDoList\\Components\\Pages\\ToDo.razor",
+              "ToolTip": "C:\\Users\\bcbos\\Desktop\\Bruno\\CursosBlazor\\BlazorDeepDive\\Projects\\BlazorDeepDiveCourse\\BlazorDeepDive\\ToDoList\\Components\\Pages\\ToDo.razor",
+              "RelativeToolTip": "ToDoList\\Components\\Pages\\ToDo.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T03:24:12.395Z",
+              "EditorCaption": ""
             }
           ]
         }

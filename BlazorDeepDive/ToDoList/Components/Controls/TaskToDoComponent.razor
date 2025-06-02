@@ -2,10 +2,21 @@
 <li @key="ToDoTask.Id">
 	<div class="row mb-2">
 		<div class="col-1">
-			<input type="checkbox"
-				   class="form-check-input"
-				   @bind-value="ToDoTask.IsCompleted"
-				   checked="@ToDoTask.IsCompleted" />
+			@if (ToDoTask.Name.Length>0)
+			{
+				<input type="checkbox"
+					   class="form-check-input"
+					   @bind-value="ToDoTask.IsCompleted"
+				checked="@ToDoTask.IsCompleted" />
+			}
+			else
+			{
+				<input type="checkbox"
+					   class="form-check-input"
+					   @bind-value="ToDoTask.IsCompleted"
+					   checked="@ToDoTask.IsCompleted" disabled/>
+			}
+			
 		</div>
 		<div class="col">
 			@if (ToDoTask.IsCompleted)
@@ -28,6 +39,9 @@
 				<text></text>
 			}
 		</div>
+		<div class="col">
+			<button type="button" class="btn btn-danger" @onclick="@(() => { RemoveThisTask(); })"> Delete Task </button>
+		</div>
 	</div>
 </li>
 
@@ -35,4 +49,13 @@
 
 	[Parameter]
 	public TaskToDo ToDoTask { get; set; }
+
+	[Parameter]
+	public EventCallback CallUpdateVisual { get; set; }
+
+	private void RemoveThisTask()
+	{
+		TasksRepository.DeleteTask(ToDoTask.Id);
+		CallUpdateVisual.InvokeAsync();
+	}
 }

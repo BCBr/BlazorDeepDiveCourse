@@ -24,7 +24,10 @@
 
 	private void AddTaskToDo()
 	{
-		TasksRepository.AddTask(new TaskToDo());
-		TasksList = TasksRepository.GetTasks();
+		if (TasksList !=null)
+		{
+			TasksRepository.AddTask(new TaskToDo());
+			TasksList = TasksRepository.GetTasks();
+		}
 	}
 }

@@ -12,8 +12,15 @@
 
         public static void AddTask(TaskToDo task)
         {
-            var maxId = tasks.Max(s => s.Id);
-            task.Id = maxId + 1;
+            if(tasks.Count > 0)
+            {
+                var maxId = tasks.Max(s => s.Id);
+                task.Id = maxId + 1;
+            }else
+            {
+                task.Id = 0;
+            }
+            
             tasks.Add(task);
         }
 
@@ -82,6 +89,11 @@
             tasks.AddRange(GetTasksCompleted(!isCompletedFirst));
 
             return tasks;
+        }
+
+        public static void InitilizeNewTaskList()
+        {
+            tasks = new List<TaskToDo>();
         }
     }
 }
